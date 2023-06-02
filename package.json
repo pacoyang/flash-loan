@@ -1,5 +1,9 @@
 {
   "name": "hardhat-project",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile"
+  },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",

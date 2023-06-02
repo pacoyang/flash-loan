@@ -2,7 +2,9 @@
   "name": "hardhat-project",
   "private": true,
   "scripts": {
-    "compile": "hardhat compile"
+    "compile": "hardhat compile",
+    "run-node": "hardhat node",
+    "test-localhost": "hardhat test --network localhost"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.7.0",

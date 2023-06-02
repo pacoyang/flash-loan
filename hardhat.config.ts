@@ -11,6 +11,11 @@ const config: HardhatUserConfig = {
       url: process.env.INFURA_GOERLI_ENDPOINT,
       accounts: [process.env.PRIVATE_KEY!],
     },
+    hardhat: {
+      forking: {
+        url: `https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`,
+      }
+    },
   },
 };
 
